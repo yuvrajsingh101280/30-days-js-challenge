@@ -1,0 +1,34 @@
+#  Loops
+**Activity1 : For Loop**
+<br>
+
+
+1. write  a program to print number from 1 to 10 using for loop
+2. write a program to pring the multiplication table of 5 using a for loop
+
+
+<br>
+
+**Activity2: While Loop**
+
+<br>
+
+
+1. write  a program to calculate the sum of nmmbers from 1 to 10 using a while loop
+2. write a program to print numbers from 10 to 1 using a while loop
+
+
+<br>
+
+**Activity3: Do.... while Loop**
+
+<br>
+
+1. write a program to print numbers from 1 to 5 using do... while loop
+2. write a program to calculate the factorial of a number using a do... while loop
+
+<br>
+
+**Activity4 : Nested Loops**
+
+1. write a program to print a pattern using nested for loops:
