@@ -29,8 +29,9 @@
 **Activity4 : Nested Loops**
 
 1. write a program to print a pattern using nested for loops:
-   <<<<<<< HEAD
+   <br>
 
+![Screenshot 2024-07-16 080238](https://github.com/user-attachments/assets/06b304a7-2dfe-4667-9d9d-a77e30080614)
 <br>
 
 **Activity5: Loop Control Statements**
@@ -41,8 +42,6 @@
 
 =======
 <br>
-
-![Screenshot 2024-07-16 080238](https://github.com/user-attachments/assets/06b304a7-2dfe-4667-9d9d-a77e30080614)
 
 > > > > > > > 34181d06164d1d89dc37fcdfc083369e1297c0ec
 > > > > > > > wer
