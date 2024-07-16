@@ -32,4 +32,7 @@
 **Activity4 : Nested Loops**
 
 1. write a program to print a pattern using nested for loops:
+2. 
+3. <br>
+
 ![Screenshot 2024-07-16 080238](https://github.com/user-attachments/assets/06b304a7-2dfe-4667-9d9d-a77e30080614)
