@@ -32,3 +32,15 @@
 **Activity4 : Nested Loops**
 
 1. write a program to print a pattern using nested for loops:
+
+
+
+<br>
+
+**Activity5: Loop Control Statements**
+<br>
+
+1. write a program to print numbers from 1 to 10 but skip the number 5 using the continue
+2. write a program to print numbers from 1 to 10 , but stop the loop when the number is 7 using the break statement.
+
+
