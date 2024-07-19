@@ -39,3 +39,5 @@
 
 1. Use a for ...in loop to iterate over the properties of the book object and log each property and its value
 2. Use object.key and object.values method to log all the key and value of the book object.
+
+<br>
