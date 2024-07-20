@@ -5,7 +5,7 @@
 <br>
 
 1. use template literals to create a string that includes variable for a person's name and age. and log the string to the console.
-2. Create a muli-line string using template literals and log it to the cosole
+2. Create a muli-line string using template literals and log it to the console.
 
 <br>
 
