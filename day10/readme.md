@@ -30,4 +30,14 @@
 
 <br>
 
-1. 
+1. Add a submit event listerner to a form that prevents the default submission and logs the form data to the console.
+2. Add a change event listener to a select dropdown that displays the selected value in a paragraph.
+
+<br>
+
+**Activity5**
+
+<br>
+
+1. Add a click event listener to a list that logs thet text content of the clicked list item using event delegation.
+2. Add an event listener to a parent element that listens for events from dynamically added child elements.
