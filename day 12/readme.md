@@ -3,7 +3,7 @@
 <!-- Activity 1 -->
 
 1. Write a fuction that intentionally thows an error and use a try-catch block to handle the error and log an approapriate message to the console.
-2. CReat a function that divides two numbers and throws an error if the denominator is zero. Use a try-catch block to handle the error
+2. Create a function that divides two numbers and throws an error if the denominator is zero. Use a try-catch block to handle the error
 
 <!-- Activtity2  -->
 
@@ -22,5 +22,5 @@
 
 <!-- Activity5  -->
 
-1. Use the fetch API to request data from and invalid URL and handle the error using catch() . Log an appropriate error message to the console.
+1. Use the fetch API to request data from an invalid URL and handle the error using catch() . Log an appropriate error message to the console.
 2. Use the fetch API to request data from an invalid URL withing an async function and handle the error using try-cathc . Log an appropriate error message
