@@ -16,6 +16,8 @@
 1. create a module that exports multiple functions using named exports. Import and use these function in another script.
 2. create a module that exports a single function using default export. Import and use this function in another script.
 
+
+
 <br>
 
 **Activity 3**
