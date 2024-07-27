@@ -23,9 +23,9 @@
 **Activity3**
 <br>
 
-1. ADd a static method to the person class that returns a generic greeting message.Call this static method without creating an instance of the class and log the message
+1. Add a static method to the person class that returns a generic greeting message.Call this static method without creating an instance of the class and log the message
 2. Add a static property to the student class to keep track of the number of students created. Increment this property in the constructor and log the total number of students.
-<br>
+   <br>
 
 **Activity4**
 <br>
