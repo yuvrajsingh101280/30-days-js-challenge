@@ -1,21 +1,20 @@
-# Day-16
+# Day 17
 
 **Activity1**
 
 <br>
 
-1. Write a function that returns another function, where the inner function access a varaible from the outer function's scope. call the inner function and log the result.
+1. write a recursive function to calculate the factorial of a number. Log the result for a few test cases.
 
-2. Create a closure that maintains a private counter. Implement function to incrememnt and get the current value of the counter.
+2. write a recursive function to calculate the nth fibonacci number. log the result for a few test cases
 
 <br>
 
 **Activity2**
-
 <br>
 
-1. write a function that generates unique IDs. Use a closure to keep track of the last generated ID and increment it with each call.
-2. Create a closure that captures a user's name and returns a function that greet the user by name
+1. Write a recursive function to finad the sum of all elements in an array. Log the result for a few test cases.
+2. Write a recursive function to find the maximum element in an array . Log the result for a few test cases.
 
 <br>
 
@@ -23,20 +22,23 @@
 
 <br>
 
-1. Write a loop that creates an array of functions. Each function should log its index whe called . Use a closure to ensure each function logs the correct index.
+1. write a recursive function to reverse a string. Log the result for a few test cases.
+2. write a recursive functino to check if a string is a palindrome . Log the result for a few test cases.
 
 <br>
 
 **Activity4**
+
 <br>
 
-1. Use closure to create a simple module for managing a collection of items. Implement methods to add  , remove and list them.
+1. Write a recursive funciton to perform a binary search on a sorted array. Log the index of the target element for a few test cases.
+
+2. Write a recursive function to cout the occurences of a target element in an array. Log the result for a few test cases.
 
 <br>
 
 **Activity5**
-
 <br>
 
-1. write a function that memoizes the results of  another function. Use a closure to store the results of previous computations.
-2. Create a memoized version of a function that calculates the factorial of a number.
+1. Write a recursive function to perform an in-order traversal of binary tree. Log the nodes they are visited.
+2. write a recursive function to calculate the depth of a binary tree. Log the result for a few test cases
