@@ -1,240 +1,300 @@
-// Activity1
-// 1
+// // Activity1
+// // 1
 
 
-// class node {
+// // class node {
 
-//     constructor(value) {
+// //     constructor(value) {
 
-//         this.value = value;
-//         this.next = null
+// //         this.value = value;
+// //         this.next = null
 
-//     }
+// //     }
 
-// }
-// let node1 = new node(10)
-// let node2 = new node(20)
-// let node3 = new node(30)
+// // }
+// // let node1 = new node(10)
+// // let node2 = new node(20)
+// // let node3 = new node(30)
 
-// node1.next = node2;
-// node2.next = node3;
-// let currnode = node1
-// while (currnode !== null) {
-
-
-//     console.log(currnode.value)
-//     currnode = currnode.next
-// }
+// // node1.next = node2;
+// // node2.next = node3;
+// // let currnode = node1
+// // while (currnode !== null) {
 
 
-// 2
+// //     console.log(currnode.value)
+// //     currnode = currnode.next
+// // }
 
-// class node {
 
-//     constructor(value) {
+// // 2
 
-//         this.value = value;
-//         this.next = null
-//     }
-// }
-// class LinkedList {
+// // class node {
+
+// //     constructor(value) {
+
+// //         this.value = value;
+// //         this.next = null
+// //     }
+// // }
+// // class LinkedList {
+
+// //     constructor() {
+// //         this.head = null //Intially ,  the list is empty so the head is null
+
+// //     }
+// //     // method to add the node at the end
+// //     add(value) {
+// //         const newNode = new node(value)
+// //         if (this.head === null) {
+
+// //             this.head = newNode//If the list is empty the new node becomes the head
+
+// //         }
+// //         else {
+
+// //             let current = this.head
+// //             while (current.next !== null) {
+
+// //                 current = current.next
+
+// //             }
+// //             current.next = newNode
+// //         }
+
+
+
+// //     }
+// //     // remove the element from the last 
+// //     remove() {
+// //         if (this.head === null) {
+
+// //             console.log("List is empty")
+// //             return
+// //         }
+// //         if (this.head.next === null) {//If there is only one node in the list
+
+// //             this.head = null
+// //         }
+// //         else {
+
+// //             let current = this.head;
+// //             while (current.next.next !== null) {
+// //                 current = current.next
+
+
+// //             }
+// //             current.next = null//remove the last node
+// //         }
+
+
+// //     }
+
+
+// //     display() {
+
+// //         if (this.head === null) {
+
+// //             console.log("List is empty")
+// //         }
+// //         else {
+// //             let current = this.head
+// //             while (current.next !== null) {
+// //                 console.log(current.value)
+// //                 current = current.next
+
+// //             }
+
+
+// //         }
+
+// //     }
+
+// // }
+// // const list = new LinkedList()
+// // list.add(2)
+// // list.add(20)
+// // list.add(24)
+// // list.add(24)
+
+// // list.display()
+// // list.remove()
+// // console.log("\n")
+// // list.display()
+// // console.log("\n")
+
+// // list.remove()
+// // console.log("\n")
+// // list.display()
+// // Activity2
+
+// // Stack
+
+// class stack {
+
+
 
 //     constructor() {
-//         this.head = null //Intially ,  the list is empty so the head is null
+
+
+//         this.items = []
 
 //     }
-//     // method to add the node at the end
-//     add(value) {
-//         const newNode = new node(value)
-//         if (this.head === null) {
+//     // Method to add an element to the stack
 
-//             this.head = newNode//If the list is empty the new node becomes the head
 
-//         }
-//         else {
 
-//             let current = this.head
-//             while (current.next !== null) {
+//     push(element) {
 
-//                 current = current.next
-
-//             }
-//             current.next = newNode
-//         }
-
+//         this.items.push(element)
 
 
 //     }
-//     // remove the element from the last 
-//     remove() {
-//         if (this.head === null) {
+//     pop() {
 
-//             console.log("List is empty")
-//             return
+//         if (this.isEmpty()) {
+
+//             return "Stack is empty"
 //         }
-//         if (this.head.next === null) {//If there is only one node in the list
+//         return this.items.pop()
+//     }
+//     peek() {
 
-//             this.head = null
+//         if (this.isEmpty()) {
+
+//             return "Stack is empty"
+
 //         }
-//         else {
+//         return this.items[this.items.length - 1]
 
-//             let current = this.head;
-//             while (current.next.next !== null) {
-//                 current = current.next
-
-
-//             }
-//             current.next = null//remove the last node
-//         }
 
 
 //     }
+//     // Method to check if the stack is empty
 
+//     isEmpty() {
 
-//     display() {
-
-//         if (this.head === null) {
-
-//             console.log("List is empty")
-//         }
-//         else {
-//             let current = this.head
-//             while (current.next !== null) {
-//                 console.log(current.value)
-//                 current = current.next
-
-//             }
-
-
-//         }
+//         return this.items.length === 0
 
 //     }
+
+//     size() {
+
+//         return this.items.length
+
+//     }
+//     clear() {
+
+//         this.items = []
+
+//     }
+//     reverseString() {
+
+//         let reversed = ""
+//         while (!this.isEmpty) {
+
+//             reversed += this.pop()
+
+//         }
+//         return reversed
+
+//     }
+// }
+// const Stack = new stack()
+// // // Stack.push(10)
+// // // Stack.push(20)
+// // // Stack.push(30)
+
+// // // // console.log(Stack.peek())
+// // // console.log(Stack.pop())
+// // // console.log("\n")
+// // // console.log(Stack.peek())
+// // // console.log(Stack.size())
+
+// // Stack.push("H")
+// // Stack.push("E")
+// // Stack.push("L")
+// // Stack.push("L")
+// // Stack.push("O")
+// // console.log(Stack.reverseString())
+
+
+// function reverseStringUsingStack(str) {
+
+//     for (let ch in str) {
+
+//         Stack.push(ch)
+
+//     }
+
+//     return Stack.reverseString()
+
 
 // }
-// const list = new LinkedList()
-// list.add(2)
-// list.add(20)
-// list.add(24)
-// list.add(24)
+// const originalString = "HELLO";
+// const reversedString = reverseStringUsingStack(originalString);
+// console.log(reversedString); // Outputs: "OLLEH"
 
-// list.display()
-// list.remove()
-// console.log("\n")
-// list.display()
-// console.log("\n")
+// Activity3
 
-// list.remove()
-// console.log("\n")
-// list.display()
-// Activity2
-
-// Stack
-
-class stack {
-
+// 1
+class queue {
 
 
     constructor() {
-
-
         this.items = []
 
     }
-    // Method to add an element to the stack
 
+    // Add element to the queue
 
+    enqueue(value) {
 
-    push(element) {
-
-        this.items.push(element)
-
+        this.items.push(value)
 
     }
-    pop() {
+    front() {
+
 
         if (this.isEmpty()) {
 
-            return "Stack is empty"
-        }
-        return this.items.pop()
-    }
-    peek() {
-
-        if (this.isEmpty()) {
-
-            return "Stack is empty"
+            return `Queue is Empty`
 
         }
-        return this.items[this.items.length - 1]
-
-
-
+        return this.items[0]
     }
-    // Method to check if the stack is empty
-
     isEmpty() {
+
 
         return this.items.length === 0
 
     }
+    dequeue() {
 
-    size() {
 
-        return this.items.length
 
-    }
-    clear() {
+        if (this.isEmpty()) {
 
-        this.items = []
-
-    }
-    reverseString() {
-
-        let reversed = ""
-        while (!this.isEmpty) {
-
-            reversed += this.pop()
+            return `Queue is empty`
 
         }
-        return reversed
-
+        return `${this.items.shift()} is removed`
+    }
+    printQueue() {
+        return this.items.toString();
     }
 }
-const Stack = new stack()
-// // Stack.push(10)
-// // Stack.push(20)
-// // Stack.push(30)
 
-// // // console.log(Stack.peek())
-// // console.log(Stack.pop())
-// // console.log("\n")
-// // console.log(Stack.peek())
-// // console.log(Stack.size())
+const Queue = new queue();
+Queue.enqueue(10);
+Queue.enqueue(20);
+Queue.enqueue(30);
 
-// Stack.push("H")
-// Stack.push("E")
-// Stack.push("L")
-// Stack.push("L")
-// Stack.push("O")
-// console.log(Stack.reverseString())
+console.log(Queue.front());  // Output: 10
 
+console.log(Queue.dequeue());  // Output: 10
+console.log(Queue.front());  // Output: 20
 
-function reverseStringUsingStack(str) {
-
-    for (let ch in str) {
-
-        Stack.push(ch)
-
-    }
-
-    return Stack.reverseString()
-
-
-}
-const originalString = "HELLO";
-const reversedString = reverseStringUsingStack(originalString);
-console.log(reversedString); // Outputs: "OLLEH"
-
-
+console.log(Queue.printQueue());  // Output: 20,30
 
 
